@@ -18,15 +18,15 @@ Este é o repositório do site de campanha de Renata Ferreguti. O site é constr
 
 ### Página Inicial
 
-![Página Inicial](path/to/screenshot1.png)
+![Sobre - Menu](https://github.com/lukaslimna1/SiteRenata/blob/main/imagens%20e%20afins/Imagens%20e%20outros%20arquivos%20do%20site/Sobre.jpg)
 
-### Sobre
+### Jornada
 
-![Sobre](path/to/screenshot2.png)
+![Jornada](https://github.com/lukaslimna1/SiteRenata/blob/main/imagens%20e%20afins/Imagens%20e%20outros%20arquivos%20do%20site/Jornada.jpg)
 
-### Contato
+### Contato - Rodapé
 
-![Contato](path/to/screenshot3.png)
+![Contato - Rodapé](https://github.com/lukaslimna1/SiteRenata/blob/main/imagens%20e%20afins/Imagens%20e%20outros%20arquivos%20do%20site/Contato-Rodape.jpg)
 
 ## Instalação
 
