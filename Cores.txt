@@ -1,0 +1,7 @@
+as cores que estão usando para as redes sociais são 
+#EED1C0 -  para o Fundo (nude)
+#B1427E - Para fundo de texto com texto em braco
+#B1427E  - Para titulos
+#22466C - Para titulos mais finos
+#C0AEE6 e #D9D9DA - como gradiente
+#026BA2 e #008ABC - como gradiente com texto branco 
