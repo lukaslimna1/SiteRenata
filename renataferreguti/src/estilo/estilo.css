@@ -2,6 +2,7 @@
 
 /*Fonte Great Vibes*/
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
 
 /*NAV MENU*/
 .nav-link {
@@ -156,6 +157,12 @@ body {
     font-size: 25px;
     box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.9);
 
+}
+
+.sobre-juntos {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    margin: 35px;
 }
 
 
@@ -491,21 +498,17 @@ body {
 
 .contato-info img {
     max-width: 100%;
-    height: 400px;
-    margin-top: 20px;
-    display: block;
-    /* Para remover margens adicionais que poderiam desalinhar a imagem */
-    margin-left: auto;
-    /* Centraliza horizontalmente */
-    margin-right: auto;
-    /* Centraliza horizontalmente */
+    height: 600px;
+    display: flex;
+    margin-top: -80px;
+    margin-bottom: -20px;
 }
 
 .contato-form form {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    height: 390px;
+    height: 470px;
 }
 
 .contato-form label {

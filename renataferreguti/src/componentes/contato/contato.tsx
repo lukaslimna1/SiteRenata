@@ -5,6 +5,7 @@ import '../../estilo/estilo.css';
 const Contato: React.FC = () => {
   const [nome, setNome] = useState('');
   const [email, setEmail] = useState('');
+  const [telefone, setTelefone] = useState ('');
   const [mensagem, setMensagem] = useState('');
 
   const handleSubmit = (event: React.FormEvent) => {
@@ -25,6 +26,9 @@ const Contato: React.FC = () => {
             </label>
             <label>
               <input type="email" placeholder='E-mail' value={email} onChange={(e) => setEmail(e.target.value)} required />
+            </label>
+            <label>
+              <input type="tel" placeholder='(xx) xxxxx-xxxx' value={telefone} onChange={(e) => setTelefone(e.target.value)} required />
             </label>
             <label className='mensagem'>
               <textarea  placeholder='Digite sua mensagem!' value={mensagem} onChange={(e) => setMensagem(e.target.value)} required></textarea>

@@ -13,9 +13,9 @@ const Sobre: React.FC = () => {
       </div>
         <div className="sobre-info">
           <p>
-            Olá, eu sou a Renata Ferreguti, tenho 37 anos, casada com Igor Ferreguti, mãe do Thomaz. Formada em Gestão de Recursos Humanos e Técnica em serviços Jurídicos, pela ETEC. Cursando Licenciatura em Pedagogia. E quero lutar junto com VOCÊ, pela inclusão, acessibilidade e causas sociais!
+            Olá, eu sou a Renata Ferreguti, tenho 41 anos, casada com Igor Ferreguti, mãe do Thomaz. Formada em Gestão de Recursos Humanos e Técnica em serviços Jurídicos, pela ETEC. Cursando Licenciatura em Pedagogia. E quero lutar junto com VOCÊ, pela inclusão, acessibilidade e causas sociais!
           </p>
-          <p>Juntos somos Um e somos muito mais Fortes!</p>
+          <p className='sobre-juntos'>Juntos somos mais Fortes!</p>
         </div>
       </div>
       <div className="icone-container">
