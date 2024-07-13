@@ -1,0 +1,22 @@
+.galeria-colaborativa {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 16px;
+}
+
+.imagem-liberada img {
+  width: 100%;
+  height: auto;
+  display: block;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.imagem-liberada img:hover {
+  transform: scale(1.1);
+}
+
+.imagem-liberada p {
+  text-align: center;
+  color: #666;
+}

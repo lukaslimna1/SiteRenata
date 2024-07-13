@@ -1,0 +1,68 @@
+.conteudo-campanha {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #eed1c0;
+  border: 1px solid #ccc;
+  font-family: "Open Sans", sans-serif;
+}
+
+.titulo-campanha {
+  font-size: 40px;
+  color: #0459b4;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.frase-destaque {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.frase-destaque-maior {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.descricao-pautas {
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.hr {
+  border: none;
+  border-top: 1px solid #ffffff;
+  margin: 10px 0;
+}
+
+.pautas-section {
+  margin-top: 20px;
+}
+
+.titulo-pautas,
+.titulo-videos,
+.titulo-social {
+  font-size: 24px;
+  padding: 15px;
+  font-weight: bold;
+  color: #0459b4;
+  text-align: center;
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.datas-comemorativas {
+  margin-top: 20px;
+}
+
+/* Estilos específicos para a GaleriaColaborativa podem ser adicionados aqui conforme necessário */
