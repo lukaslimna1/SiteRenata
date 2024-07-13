@@ -1,0 +1,42 @@
+/* rodape.css */
+
+.rodape-container {
+  background-color: #22466c;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.social-icon {
+  color: white;
+  font-size: 24px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #b1427e;
+  transform: scale(1.1);
+}
+
+.rodape-texto,
+.rodape-producao {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.rodape-producao a {
+  color: #b1427e;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.rodape-producao a:hover {
+  color: #ff69b4;
+}

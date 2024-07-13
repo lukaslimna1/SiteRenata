@@ -1,0 +1,143 @@
+.evento-container {
+  background: linear-gradient(to right, #c0aee6, #eed1c0);
+  padding: 30px;
+}
+
+/* Estilo para o banner rotativo */
+.banner-rotativo {
+  width: 100%; /* Utiliza toda a largura disponível */
+  max-width: 2000px; /* Largura máxima */
+  max-height: 600px; /* Altura máxima */
+  margin: 20px auto; /* Centraliza o banner horizontalmente */
+  overflow: hidden; /* Oculta a parte do conteúdo que excede os limites */
+  position: relative; /* Permite um posicionamento relativo */
+  margin-top: 10px;
+}
+
+.banner-evento {
+  width: 100%; /* Cada banner ocupa todo o espaço disponível */
+  height: auto; /* Altura igual à do banner */
+  flex-shrink: 0; /* Evita que os banners diminuam de tamanho */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-evento img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Mantém a proporção e ajusta a imagem dentro do espaço */
+}
+
+.titulos {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 15px;
+  text-align: center;
+  background: linear-gradient(to top, #026ba2, #008abc);
+  border-radius: 10px;
+  color: #eed1c0;
+  font-size: 20px;
+}
+.titulos:hover,
+.arte :hover {
+  transform: scale(1.05);
+}
+/* Estilo para a galeria de artes */
+.galeria-artes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px; /* Maior espaçamento entre as imagens */
+  margin-top: 20px;
+}
+
+.evento-arte {
+  margin-bottom: 30px; /* Maior espaçamento entre os eventos */
+}
+
+.evento-arte h3 {
+  margin-bottom: 10px;
+  color: #0459b4;
+}
+
+.arte {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.arte img {
+  width: 100%;
+  height: 200px; /* Altura fixa para todas as imagens da galeria */
+  object-fit: cover; /* Redimensiona e corta a imagem para preencher */
+}
+
+.arte p {
+  text-align: center;
+  padding: 5px;
+  background-color: #0459b4; /* Fundo azul */
+  color: #ffffff; /* Texto branco */
+}
+
+/* Estilos para os botões customizados das setas */
+.custom-prev-arrow,
+.custom-next-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.3); /* Cor de fundo com transparência */
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 10;
+  transition: background-color 0.3s ease;
+}
+
+.custom-prev-arrow:hover,
+.custom-next-arrow:hover {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Cor de fundo mais escura ao passar o mouse */
+}
+
+/* Estilos para os ícones das setas */
+.custom-prev-arrow svg,
+.custom-next-arrow svg {
+  color: #fff; /* Cor do ícone */
+  width: 30px; /* Tamanho do ícone */
+  height: auto;
+}
+
+/* Posicionamento da seta esquerda */
+.custom-prev-arrow {
+  left: 10px;
+}
+
+/* Posicionamento da seta direita */
+.custom-next-arrow {
+  right: 10px;
+}
+
+.fullscreen-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.fullscreen-modal img {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+}
